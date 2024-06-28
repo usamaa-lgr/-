@@ -6,10 +6,24 @@
     <title>Page d'accueil</title>
     <link rel="stylesheet" href="styless.css" />
     <script src="scriptaa.js"></script>
+    <style>
+        .warning {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffcccc;
+            border: 1px solid #ff0000;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .warning h2 {
+            color: #ff0000;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Bienvenue sur notre site</h1>
+        <h1>Bienvenue sur notre site.</h1>
         <div class="tasks">
             <div class="task">
                 <a href="calculatrice.html">Calculatrice </br> <img src="calculatrice.jpg" alt="" width="100%"></a>
@@ -26,6 +40,12 @@
             <div class="task restricted">
                 <a href="Snake_game.html">snake_game</br> <img src="HHTP.png"  width="100%"></a>
             </div>
+        </div>
+        <div class="warning">
+            <h2>Site dangereux</h2>
+            <p>Des pirates informatiques qui se trouvent sur le site que vous essayez de consulter peuvent vous inciter à installer des logiciels ou à divulguer des éléments tels que votre mot de passe, votre numéro de téléphone ou votre numéro de carte de crédit.</p>
+            <p>Chrome vous recommande vivement de revenir en lieu sûr.</p>
+            <p><a href="https://support.google.com/chrome/answer/99020" target="_blank">En savoir plus</a></p>
         </div>
     </div>
 </body>
